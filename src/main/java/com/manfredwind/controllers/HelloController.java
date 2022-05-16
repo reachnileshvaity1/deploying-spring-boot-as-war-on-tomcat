@@ -8,7 +8,7 @@ public class HelloController {
 	
 	@GetMapping("/")
 	public String hello() {
-		return "Hello!";
+		return "Welcome to site developed using Spring boot with Maven for Softmax Solutions, a software company";
 	}
 
 }
